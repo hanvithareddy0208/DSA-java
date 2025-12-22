@@ -225,7 +225,24 @@
 //     }
 // }
 
-//15.amstrong number
+//15.counting numbers
+// import java.util.Scanner;
+// public class basics{
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         int a = sc.nextInt();
+//         int count =0;
+//         while(a!=0){
+//             a = a/10;
+//             count++;
+//         }
+//         System.out.println(count);
+//     }
+// }
+
+
+
+//16.amstrong number
 // import java.util.Scanner;
 // public class basics{
 //     public static void main(String[] args) {
@@ -246,7 +263,7 @@
 //     }
 // }
 
-//16.amstrong numbers between two given ranges
+//17.amstrong numbers between two given ranges
 // import java.util.Scanner;
 // public class basics {
 //     public static void main(String[] args) {
@@ -269,7 +286,7 @@
 //     }
 // }
 
-//17.fibanacci series
+//18.fibanacci series
 // import java.util.Scanner;
 // public class basics{
 //     public static void main(String[] args) {
@@ -288,7 +305,7 @@
 //     }
 // }
 
-//18.factorial of a number
+//19.factorial of a number
 // import java.util.Scanner;
 // public class basics{
 //     public static void main(String[] args) {
@@ -302,7 +319,7 @@
 //     }
 // }
 
-//19.power
+//20.power
 // import java.util.Scanner;
 // public class basics{
 //     public static void main(String[] args) {
@@ -316,3 +333,5 @@
 //         System.out.println(result);
 //     }
 // }
+
+//21.factors
