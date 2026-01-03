@@ -92,3 +92,26 @@
 //         }
 //     }
 // }
+
+//6.greateat or maxium
+import java.util.Scanner;
+// public class arrays{
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         int a = sc.nextInt();
+//         int arr[]=new int[a];
+//         int max=arr[0];
+//         int temp;
+//         for(int i=0;i<a;i++){
+//             arr[i] = sc.nextInt();
+//         }
+//         for(int i=0;i<a;i++){
+//             if(arr[i]>max){
+//                 temp = arr[i];
+//                 arr[i]=max;
+//                 max=temp;
+//             }
+//         }
+//         System.out.println(max);
+//     }
+// }
