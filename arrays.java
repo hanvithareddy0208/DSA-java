@@ -94,7 +94,7 @@
 // }
 
 //6.greateat or maxium
-import java.util.Scanner;
+// import java.util.Scanner;
 // public class arrays{
 //     public static void main(String[] args) {
 //         Scanner sc = new Scanner(System.in);
@@ -113,5 +113,28 @@ import java.util.Scanner;
 //             }
 //         }
 //         System.out.println(max);
+//     }
+// }
+
+//7.smallest
+// import java.util.Scanner;
+// public class arrays{
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         int a = sc.nextInt();
+//         int arr[]=new int[a];
+//         int min=arr[0];
+//         int temp;
+//         for(int i=0;i<a;i++){
+//             arr[i] = sc.nextInt();
+//         }
+//         for(int i=0;i<a;i++){
+//             if(arr[i]<min){
+//                 temp = arr[i];
+//                 arr[i]=min;
+//                 min=temp;
+//             }
+//         }
+//         System.out.println(min);
 //     }
 // }
