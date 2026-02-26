@@ -1,6 +1,28 @@
 //basics
 
 //1.positive or negative
+//2.even number
+//3.sum of first n number numbers
+//4.n natural numbers
+//5.sum in given range
+//6.greatest between two
+//7.greatest of three
+//8.leap year
+//9.leap year between two given ranges
+//10.prime number
+//11.prime numbers between two given ranges
+//12.sum of digits
+//13.reverse a number
+//14.palindrome number
+//15.counting numbers
+//16.amstrong number
+//17.amstrong numbers between two given ranges
+//18.fibanacci series
+//19.factorial of a number
+//20.power
+
+
+//1.positive or negative
 // import java.util.Scanner;
 // public class basics{
 //     public static void main(String[]args){
