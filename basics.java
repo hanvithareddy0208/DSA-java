@@ -656,3 +656,34 @@
 //         }
 //     }
 // }
+
+//35.disarium number
+// import java.util.Scanner;
+// public class basics{
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         int a = sc.nextInt();
+//         int original =a;
+//         int sum=0;
+//         int product=1;
+//         int count=0;
+//         while(a!=0){
+//             int rem = a%10;
+//             count++;
+//             for(int j=1;j<=count;j++){
+//                 product = rem*rem;
+//             }
+//             sum = sum+product;
+//             a=a/10;
+//         }
+//         if(original==sum){
+//             System.out.println("disarium number");
+//         }else{
+//             System.out.println("no");
+//         }
+//     }
+// }
+
+//36.disarium numbers between range
+
+//37.
