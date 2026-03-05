@@ -632,3 +632,27 @@
 //         }
 //     }
 // }
+
+//34.spy numbers between range
+// import java.util.Scanner;
+// public class basics{
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         int a = sc.nextInt();
+//         int b = sc.nextInt();
+//         for(int i=a;i<=b;i++){
+//             int sum=0;
+//             int product =1;
+//             int temp=i;
+//             while(temp!=0){
+//                 int rem = temp%10;
+//                 sum = sum+rem;
+//                 product = product *rem;
+//                 temp = temp/10;
+//             }
+//             if(sum==product){
+//                 System.out.println(i+" ");
+//             }
+//         }
+//     }
+// }
