@@ -610,3 +610,25 @@
 //         }
 //     }
 // }
+
+//33.spy number
+// import java.util.Scanner;
+// public class basics{
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         int a = sc.nextInt();
+//         int sum=0;
+//         int product=1;
+//         while(a!=0){
+//             int rem = a%10;
+//             sum = sum+rem;
+//             product = product*rem;
+//             a = a/10;
+//         }
+//         if(sum==product){
+//             System.out.println("spy number");
+//         }else{
+//             System.out.println("not a spy number");
+//         }
+//     }
+// }
