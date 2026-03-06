@@ -568,4 +568,24 @@
 //     }
 // }
 
-//
+//31.neon number
+// import java.util.Scanner;
+// public class basics{
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         int a = sc.nextInt();
+//         int square = a*a;
+//         int sum =0;
+//         while(square!=0){
+//             int rem = square%10;
+//             sum = sum + rem;
+//             square = square/10;
+//         }
+//         if(a == sum){
+//             System.out.println("neon number");
+//         }else{
+//             System.out.println("not a neon number");
+//         }
+//     }
+// }
+
