@@ -589,3 +589,24 @@
 //     }
 // }
 
+//32.neon numbers between range
+// import java.util.Scanner;
+// public class basics{
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         int a = sc.nextInt();
+//         int b = sc.nextInt();
+//         for(int i=a;i<=b;i++){
+//             int square = i*i;
+//             int sum = 0;
+//             while(square!=0){
+//                 int rem=square%10;
+//                 sum = sum+rem;
+//                 square = square/10;
+//             }
+//             if(i==sum){
+//                 System.out.println(i+" ");
+//             }
+//         }
+//     }
+// }
