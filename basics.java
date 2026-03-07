@@ -488,3 +488,23 @@
 //         }
 //     }
 // }
+
+//27.automorphic number
+// import java.util.Scanner;
+// public class basics{
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         int a = sc.nextInt();
+//         int square = a*a;
+//         String str1 = Integer.toString(a);
+//         String str2 = Integer.toString(square);
+//         if(str2.endsWith(str1)){
+//             System.out.println("automorphic");
+//         }else{
+//             System.out.println("not automorphic");
+//         }
+//     }
+// }
+
+//28.automorphic numbers between range
+import java
