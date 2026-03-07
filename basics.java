@@ -507,4 +507,19 @@
 // }
 
 //28.automorphic numbers between range
-import java
+// import java.util.Scanner;
+// public class basics{
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         int a = sc.nextInt();
+//         int b = sc.nextInt();
+//         for(int i=a;i<=b;i++){
+//             int square = i*i;
+//             String str1 = Integer.toString(i);
+//             String str2 = Integer.toString(square);
+//             if(str2.endsWith(str1)){
+//                 System.out.println(i+" ");
+//             }
+//         }
+//     }
+// }
