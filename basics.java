@@ -544,3 +544,28 @@
 //         }
 //     }
 // }
+
+//30.harshad numbers between range
+// import java.util.Scanner;
+// public class basics{
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         int a = sc.nextInt();
+//         int b = sc.nextInt();
+//         for(int i=a;i<=b;i++){
+//             int original = i;
+//             int sum = 0;
+//             int temp=i;
+//             while(temp!=0){
+//                 int rev = temp%10;
+//                 sum = sum+rev;
+//                 temp = temp/10;
+//             }
+//             if(original%sum==0){
+//                 System.out.println(i +" ");
+//             }
+//         }
+//     }
+// }
+
+//
