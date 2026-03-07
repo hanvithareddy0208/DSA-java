@@ -523,3 +523,24 @@
 //         }
 //     }
 // }
+
+//29.harshad number
+// import java.util.Scanner;
+// public class basics{
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         int a = sc.nextInt();
+//         int sum=0;
+//         int original =a;
+//         while(a!=0){
+//             int rev = a%10;
+//             sum = sum + rev;
+//             a=a/10;
+//         }
+//         if(original%sum==0){
+//             System.out.println("harshad number");
+//         }else{
+//             System.out.println("not a harshad number");
+//         }
+//     }
+// }
