@@ -424,4 +424,29 @@
 //     }
 // }
 
-//24.
+//24.strong numbers between range
+// import java.util.Scanner;
+// public class basics{
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         int a = sc.nextInt();
+//         int b = sc.nextInt();
+//         for(int i=a;i<=b;i++){
+//             int sum =0;
+//             int original =i;
+//             int temp =i;
+//             while(temp!=0){
+//                 int rev = temp%10;
+//                 int fact =1;
+//                 for(int j=1;j<=rev;j++){
+//                     fact = fact*j;
+//                 }
+//                 sum = sum +fact;
+//                 temp = temp/10;
+//             }
+//             if(sum==original){
+//                 System.out.println(original+" ");
+//             }
+//         }
+//     }
+// }
