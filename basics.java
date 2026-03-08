@@ -472,4 +472,19 @@
 //     }
 // }
 
-//26.
+//26.perfect squares between range
+// import java.util.Scanner;
+// public class basics{
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         int a = sc.nextInt();
+//         int b = sc.nextInt();
+//         for(int i=a;i<=b;i++){
+//             for(int j=1;j<=i;j++){
+//                 if(j*j==i){
+//                     System.out.println(i+" ");
+//                 }
+//             }
+//         }
+//     }
+// }
