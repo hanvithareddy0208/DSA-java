@@ -450,3 +450,26 @@
 //         }
 //     }
 // }
+
+//25.perfect square
+// import java.util.Scanner;
+// public class basics{
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         int a = sc.nextInt();
+//         boolean found = false;
+//         for(int i=1;i<=a;i++){
+//             if(i*i==a){
+//                 found = true;
+//                 break;
+//             }
+//         }
+//         if(found){
+//             System.out.println("perfect square");
+//         }else{
+//             System.out.println("not perfect");
+//         }
+//     }
+// }
+
+//26.
