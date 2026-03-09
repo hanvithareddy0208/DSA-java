@@ -358,22 +358,43 @@
 //     }
 // }
 
-// //21.Check perfect number
+//21.Check perfect number
 // import java.util.Scanner;
 // public class basics{
 //     public static void main(String[] args) {
 //         Scanner sc = new Scanner(System.in);
 //         int a = sc.nextInt();
-//         int sum = 1;
+//         int sum =0;
 //         for(int i=1;i<a;i++){
 //             if(a%i==0){
 //                 sum = sum+i;
 //             }
 //         }
-//         if(a==sum){
+//         if(sum==a){
 //             System.out.println("perfect number");
 //         }else{
-//             System.out.println("not a perfect number");
+//             System.out.println("not perfect");
+//         }
+//     }
+// }
+
+//22.perfect numbers between range
+// import java.util.Scanner;
+// public class basics{
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         int a = sc.nextInt();
+//         int b = sc.nextInt();
+//         for(int i=a;i<=b;i++){
+//             int sum =0;
+//             for(int j=1;j<i;j++){
+//                 if(i%j==0){
+//                     sum = sum+j;
+//                 }
+//             }
+//             if(sum==i){
+//                 System.out.println(i+" ");
+//             }
 //         }
 //     }
 // }
