@@ -398,3 +398,30 @@
 //         }
 //     }
 // }
+
+//23.strong number
+// import java.util.Scanner;
+// public class basics{
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         int a = sc.nextInt();
+//         int sum =0;
+//         int original =a;
+//         while(a!=0){
+//             int rem = a%10;
+//             int fact =1;
+//             for(int i=1;i<=rem;i++){
+//                 fact = fact*i;
+//             }
+//             sum = sum+fact;
+//             a = a/10;
+//         }
+//         if(sum==original){
+//             System.out.println("strong number");
+//         }else{
+//             System.out.println("no");
+//         }
+//     }
+// }
+
+//24.
