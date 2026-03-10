@@ -146,28 +146,28 @@
 // }
 
 //10.prime number
-// import java.util.Scanner;
-// public class basics{
-//     public static void main(String[]args){
-//         Scanner sc = new Scanner(System.in);
-//         int a = sc.nextInt();
-//         boolean isprime = false;
-//         if(a<=1){
-//             isprime = false;
-//         }
-//         for(int i=2;i<=a/2;i++){
-//             if(a%i==0){
-//                 isprime = false;
-//                 break;
-//             }
-//         }
-//         if(isprime){
-//             System.out.println("prime");
-//         }else{
-//             System.out.println("not a prime");
-//         }
-//     }
-// }
+import java.util.Scanner;
+public class basics{
+    public static void main(String[]args){
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        boolean isprime = true;
+        if(a<=1){
+            isprime = false;
+        }
+        for(int i=2;i<=a/2;i++){
+            if(a%i==0){
+                isprime = false;
+                break;
+            }
+        }
+        if(isprime){
+            System.out.println("is prime");
+        }else{
+            System.out.println("not prime");
+        }
+    }
+}
 
 //11.prime numbers between two given ranges
 // import java.util.Scanner;
@@ -356,4 +356,22 @@
 //     }
 // }
 
-//21.factors
+// //21.Check perfect number
+// import java.util.Scanner;
+// public class basics{
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         int a = sc.nextInt();
+//         int sum = 1;
+//         for(int i=1;i<a;i++){
+//             if(a%i==0){
+//                 sum = sum+i;
+//             }
+//         }
+//         if(a==sum){
+//             System.out.println("perfect number");
+//         }else{
+//             System.out.println("not a perfect number");
+//         }
+//     }
+// }
