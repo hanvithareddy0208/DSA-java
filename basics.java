@@ -203,7 +203,7 @@
 //     public static void main(String[] args) {
 //         Scanner sc = new Scanner(System.in);
 //         int a = sc.nextInt();
-//         int sum=0;
+//         int sum =0;
 //         while(a!=0){
 //             int rem = a%10;
 //             sum = sum+rem;
@@ -311,22 +311,21 @@
 //     }
 // }
 
-//18.fibanacci series
+//18.fibbanacci series
 // import java.util.Scanner;
 // public class basics{
 //     public static void main(String[] args) {
 //         Scanner sc = new Scanner(System.in);
 //         int n = sc.nextInt();
-//         int a =0;
-//         int b=1;
-//         int c;
-//         System.out.print(a+" "+b);
+//         int a = 0;
+//         int b = 1;  
+//         System.out.print(a + " " + b + " ");
 //         for(int i=2;i<=n;i++){
-//             c = a+b;
-//             System.out.print(" "+c);
-//             a=b;
-//             b=c;
-//         }
+//             int next = a+b;
+//             System.out.print(next+" ");
+//             a = b;
+//             b = next;
+//         }  
 //     }
 // }
 
