@@ -146,28 +146,28 @@
 // }
 
 //10.prime number
-import java.util.Scanner;
-public class basics{
-    public static void main(String[]args){
-        Scanner sc = new Scanner(System.in);
-        int a = sc.nextInt();
-        boolean isprime = true;
-        if(a<=1){
-            isprime = false;
-        }
-        for(int i=2;i<=a/2;i++){
-            if(a%i==0){
-                isprime = false;
-                break;
-            }
-        }
-        if(isprime){
-            System.out.println("is prime");
-        }else{
-            System.out.println("not prime");
-        }
-    }
-}
+// import java.util.Scanner;
+// public class basics{
+//     public static void main(String[]args){
+//         Scanner sc = new Scanner(System.in);
+//         int a = sc.nextInt();
+//         boolean isprime = true;
+//         if(a<=1){
+//             isprime = false;
+//         }
+//         for(int i=2;i<=a/2;i++){
+//             if(a%i==0){
+//                 isprime = false;
+//                 break;
+//             }
+//         }
+//         if(isprime){
+//             System.out.println("is prime");
+//         }else{
+//             System.out.println("not prime");
+//         }
+//     }
+// }
 
 //11.prime numbers between two given ranges
 // import java.util.Scanner;
@@ -176,21 +176,24 @@ public class basics{
 //         Scanner sc = new Scanner(System.in);
 //         int a = sc.nextInt();
 //         int b = sc.nextInt();
+//         int count =0;
 //         for(int i=a;i<=b;i++){
+//             boolean isprime = true;
 //             if(i<=1){
-//                 continue;
+//                 isprime = false;
 //             }
-//             boolean isPrime = true;
-//              for (int j = 2; j <= Math.sqrt(i); j++) {
-//                 if (i % j == 0) {
-//                     isPrime = false;
+//             for(int j=2;j<=i/2;j++){
+//                 if(i%j==0){
+//                     isprime = false;
 //                     break;
 //                 }
 //             }
-//             if (isPrime) {
-//                 System.out.println(i +" ");
+//             if(isprime){
+//                 System.out.println(i);
+//                 count++;
 //             }
 //         }
+//         System.out.println("count is"+count);
 //     }
 // }
 
