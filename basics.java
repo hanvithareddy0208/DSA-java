@@ -20,6 +20,23 @@
 //18.fibanacci series
 //19.factorial of a number
 //20.power
+//21.Check perfect number
+//22.perfect numbers between range
+//23.strong number
+//24.strong numbers between range
+//25.perfect square
+//26.perfect squares between range
+//27.automorphic number
+//28.automorphic numbers between range
+//29.harshad number
+//30.harshad numbers between range
+//31.neon number
+//32.neon numbers between range
+//33.spy number
+//34.spy numbers between range
+//35.disarium number
+//36.disarium numbers between range
+//37.circular prime
 
 
 //1.positive or negative
@@ -686,4 +703,27 @@
 
 //36.disarium numbers between range
 
-//37.
+//37.circular prime
+
+
+//38.happy number
+// import java.util.Scanner;
+// public class basics{
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         int a = sc.nextInt();
+//         while(a!=1 && a!=4){
+//             int sum = 0;
+//             int temp = a;
+//             while(a!=0){
+//                 int rem = a%10;
+//                 sum = sum+(rem*rem);
+//                 a = a/10;
+//             }
+//             a=sum;
+//         }
+//         if(a==1){
+//             System.out.println("happy number");
+//         }
+//     }
+// }
